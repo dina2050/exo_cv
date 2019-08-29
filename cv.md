@@ -23,4 +23,4 @@ Lycée Général   2010-2013
 
 Modern Hotel Malmont    22.04.2019-25.08.2019  Femme de chambre, Plongeuse
 
-Numn Coop               01.03.2019-31
+Numn Coop               01.03.2019-31.03.2019  Stage dans le domaine informatique
