@@ -1,0 +1,48 @@
+<!Doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+        <title></title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div class="container">
+        <h1>Contact me!</h1>
+        <form method="post" action="">
+               <div class="name"> 
+                   <label for="surname">Nom</label>
+                <input type="text" name="surname" id="surname" required="required">
+                
+                <label for="name">Prenom</label> 
+                <input type="text" name="name" id="name" required="required">
+                
+               </div>
+            <div class="mail">
+                    <label for=email>Email</label>
+                <input type="mail" name="email" id="email" required="required"> 
+            </div>
+                
+                
+                <div class="num">
+                    <label for="number"> Téléphone</label>
+                <input type="tel" name="number" id="number"> 
+                </div>
+                
+                <div class="sujet">
+                <label for="motif">Motif</label>
+                <select name="motif" id="motif" required="required">
+                        <option value="empty"></option>
+                    <option value="important">J'arrive pas à vous joindre par téléphone</option>
+                    <option value="not really">Tu fais quoi le week end</option>
+                    <option value="help">J'ai besoin de votre conseil</option>
+                </select>
+                </div>
+                <div class="message">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="10" cols="50" required="required"></textarea>
+                </div>
+                <input type="submit" value="Envoyer">
+        </form>
+        </div>
+    </body>
+</html>
