@@ -1,0 +1,61 @@
+.photo {
+    width: 70%;
+}
+header, img, p, ul,li {
+    display:inline-block;
+}
+h2 {
+    vertical-align: top;
+}
+ul {
+    list-style: none;
+    vertical-align: top;
+    
+}
+h5 {
+    padding-left: 2em;
+}
+p {
+    vertical-align: bottom;
+}
+.container {
+    background-color: #9c5d56;
+}
+h1 {
+    text-align: center;
+}
+.name {
+    margin:auto;
+    width:50%;
+}
+.mail, .num, .sujet, .message{
+    margin: auto;
+    width: 50%;
+    margin-top: 1em;
+}
+    label:not([for="number"]):after { 
+    content:"*"; 
+    color: red;
+}
+
+#email, #number, #motif, #message {
+    width: 84%;
+}
+label {
+    display: inline-block;
+    text-align: right;
+    width: 13%;
+}
+#name {
+    width: 31%;
+}
+.message label {
+    vertical-align: top;
+}
+li :hover {
+    color: #9c5d56;
+}
+.me {
+    display: inline-block;
+    padding-left: 2em;
+}
